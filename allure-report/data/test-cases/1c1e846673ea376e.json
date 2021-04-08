@@ -1,0 +1,113 @@
+{
+  "uid" : "1c1e846673ea376e",
+  "name" : "test_div_int[除法-整型-2]",
+  "fullName" : "test_demo.TestCal#test_div_int",
+  "historyId" : "3320ac6ca8ef558e64a3ede1db10ce7a",
+  "time" : {
+    "start" : 1617860154086,
+    "stop" : 1617860154087,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "calculate",
+    "time" : {
+      "start" : 1617860154086,
+      "stop" : 1617860154086,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4a3d55be86856060",
+      "name" : "stdout",
+      "source" : "4a3d55be86856060.txt",
+      "type" : "text/plain",
+      "size" : 26
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "calculate::0",
+    "time" : {
+      "start" : 1617860154087,
+      "stop" : 1617860154088,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "测试相除功能_int"
+  }, {
+    "name" : "feature",
+    "value" : "测试计算器"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCal"
+  }, {
+    "name" : "host",
+    "value" : "zzh-Lenovo-Rescuer-15ISK"
+  }, {
+    "name" : "thread",
+    "value" : "9283-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "-3"
+  }, {
+    "name" : "b",
+    "value" : "-2"
+  }, {
+    "name" : "expect",
+    "value" : "1.5"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1c1e846673ea376e.json",
+  "parameterValues" : [ "-3", "-2", "1.5" ]
+}
